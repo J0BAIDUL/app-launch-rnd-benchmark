@@ -2,55 +2,1144 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <x:Double x:Key="Size0">0</x:Double>
-    <x:Double x:Key="Size1">1</x:Double>
-    <x:Double x:Key="Size2">2</x:Double>
-    <x:Double x:Key="Size3">3</x:Double>
-    <x:Double x:Key="Size4">4</x:Double>
-    <x:Double x:Key="Size5">5</x:Double>
-    <x:Double x:Key="Size6">6</x:Double>
-    <x:Double x:Key="Size7">7</x:Double>
-    <x:Double x:Key="Size8">8</x:Double>
-    <x:Double x:Key="Size9">9</x:Double>
-    <x:Double x:Key="Size10">10</x:Double>
-    <x:Double x:Key="Size11">11</x:Double>
-    <x:Double x:Key="Size12">12</x:Double>
-    <x:Double x:Key="Size13">13</x:Double>
-    <x:Double x:Key="Size14">14</x:Double>
-    <x:Double x:Key="Size15">15</x:Double>
-    <x:Double x:Key="Size16">16</x:Double>
-    <x:Double x:Key="Size17">17</x:Double>
-    <x:Double x:Key="Size18">18</x:Double>
-    <x:Double x:Key="Size19">19</x:Double>
-    <x:Double x:Key="Size20">20</x:Double>
-    <x:Double x:Key="Size21">21</x:Double>
-    <x:Double x:Key="Size22">22</x:Double>
-    <x:Double x:Key="Size23">23</x:Double>
-    <x:Double x:Key="Size24">24</x:Double>
-    <x:Double x:Key="Size25">25</x:Double>
-    <x:Double x:Key="Size26">26</x:Double>
-    <x:Double x:Key="Size27">27</x:Double>
-    <x:Double x:Key="Size28">28</x:Double>
-    <x:Double x:Key="Size29">29</x:Double>
-    <x:Double x:Key="Size30">30</x:Double>
-    <x:Double x:Key="Size31">31</x:Double>
-    <x:Double x:Key="Size32">32</x:Double>
-    <x:Double x:Key="Size33">33</x:Double>
-    <x:Double x:Key="Size34">34</x:Double>
-    <x:Double x:Key="Size35">35</x:Double>
-    <x:Double x:Key="Size36">36</x:Double>
-    <x:Double x:Key="Size37">37</x:Double>
-    <x:Double x:Key="Size38">38</x:Double>
-    <x:Double x:Key="Size39">39</x:Double>
-    <x:Double x:Key="Size40">40</x:Double>
-    <x:Double x:Key="Size41">41</x:Double>
-    <x:Double x:Key="Size42">42</x:Double>
-    <x:Double x:Key="Size43">43</x:Double>
-    <x:Double x:Key="Size44">44</x:Double>
-    <x:Double x:Key="Size45">45</x:Double>
-    <x:Double x:Key="Size46">46</x:Double>
-    <x:Double x:Key="Size47">47</x:Double>
-    <x:Double x:Key="Size48">48</x:Double>
-    <x:Double x:Key="Size49">49</x:Double>
-    <x:Double x:Key="Size50">50</x:Double>
+    <x:Double x:Key="FontSize001">6.5</x:Double>
+    <x:Double x:Key="FontSize002">7.0</x:Double>
+    <x:Double x:Key="FontSize003">7.5</x:Double>
+    <x:Double x:Key="FontSize004">8.0</x:Double>
+    <x:Double x:Key="FontSize005">8.5</x:Double>
+    <x:Double x:Key="FontSize006">9.0</x:Double>
+    <x:Double x:Key="FontSize007">9.5</x:Double>
+    <x:Double x:Key="FontSize008">10.0</x:Double>
+    <x:Double x:Key="FontSize009">10.5</x:Double>
+    <x:Double x:Key="FontSize010">11.0</x:Double>
+    <x:Double x:Key="FontSize011">11.5</x:Double>
+    <x:Double x:Key="FontSize012">12.0</x:Double>
+    <x:Double x:Key="FontSize013">12.5</x:Double>
+    <x:Double x:Key="FontSize014">13.0</x:Double>
+    <x:Double x:Key="FontSize015">13.5</x:Double>
+    <x:Double x:Key="FontSize016">14.0</x:Double>
+    <x:Double x:Key="FontSize017">14.5</x:Double>
+    <x:Double x:Key="FontSize018">15.0</x:Double>
+    <x:Double x:Key="FontSize019">15.5</x:Double>
+    <x:Double x:Key="FontSize020">16.0</x:Double>
+    <x:Double x:Key="FontSize021">16.5</x:Double>
+    <x:Double x:Key="FontSize022">17.0</x:Double>
+    <x:Double x:Key="FontSize023">17.5</x:Double>
+    <x:Double x:Key="FontSize024">18.0</x:Double>
+    <x:Double x:Key="FontSize025">18.5</x:Double>
+    <x:Double x:Key="FontSize026">19.0</x:Double>
+    <x:Double x:Key="FontSize027">19.5</x:Double>
+    <x:Double x:Key="FontSize028">20.0</x:Double>
+    <x:Double x:Key="FontSize029">20.5</x:Double>
+    <x:Double x:Key="FontSize030">21.0</x:Double>
+    <x:Double x:Key="FontSize031">21.5</x:Double>
+    <x:Double x:Key="FontSize032">22.0</x:Double>
+    <x:Double x:Key="FontSize033">22.5</x:Double>
+    <x:Double x:Key="FontSize034">23.0</x:Double>
+    <x:Double x:Key="FontSize035">23.5</x:Double>
+    <x:Double x:Key="FontSize036">24.0</x:Double>
+    <x:Double x:Key="FontSize037">24.5</x:Double>
+    <x:Double x:Key="FontSize038">25.0</x:Double>
+    <x:Double x:Key="FontSize039">25.5</x:Double>
+    <x:Double x:Key="FontSize040">26.0</x:Double>
+    <x:Double x:Key="FontSize041">26.5</x:Double>
+    <x:Double x:Key="FontSize042">27.0</x:Double>
+    <x:Double x:Key="FontSize043">27.5</x:Double>
+    <x:Double x:Key="FontSize044">28.0</x:Double>
+    <x:Double x:Key="FontSize045">28.5</x:Double>
+    <x:Double x:Key="FontSize046">29.0</x:Double>
+    <x:Double x:Key="FontSize047">29.5</x:Double>
+    <x:Double x:Key="FontSize048">30.0</x:Double>
+    <x:Double x:Key="FontSize049">30.5</x:Double>
+    <x:Double x:Key="FontSize050">31.0</x:Double>
+    <x:Double x:Key="FontSize051">31.5</x:Double>
+    <x:Double x:Key="FontSize052">32.0</x:Double>
+    <x:Double x:Key="FontSize053">32.5</x:Double>
+    <x:Double x:Key="FontSize054">33.0</x:Double>
+    <x:Double x:Key="FontSize055">33.5</x:Double>
+    <x:Double x:Key="FontSize056">34.0</x:Double>
+    <x:Double x:Key="FontSize057">34.5</x:Double>
+    <x:Double x:Key="FontSize058">35.0</x:Double>
+    <x:Double x:Key="FontSize059">35.5</x:Double>
+    <x:Double x:Key="FontSize060">36.0</x:Double>
+    <x:Double x:Key="FontSize061">36.5</x:Double>
+    <x:Double x:Key="FontSize062">37.0</x:Double>
+    <x:Double x:Key="FontSize063">37.5</x:Double>
+    <x:Double x:Key="FontSize064">38.0</x:Double>
+    <x:Double x:Key="FontSize065">38.5</x:Double>
+    <x:Double x:Key="FontSize066">39.0</x:Double>
+    <x:Double x:Key="FontSize067">39.5</x:Double>
+    <x:Double x:Key="FontSize068">40.0</x:Double>
+    <x:Double x:Key="FontSize069">40.5</x:Double>
+    <x:Double x:Key="FontSize070">41.0</x:Double>
+    <x:Double x:Key="FontSize071">41.5</x:Double>
+    <x:Double x:Key="FontSize072">42.0</x:Double>
+    <x:Double x:Key="FontSize073">42.5</x:Double>
+    <x:Double x:Key="FontSize074">43.0</x:Double>
+    <x:Double x:Key="FontSize075">43.5</x:Double>
+    <x:Double x:Key="FontSize076">44.0</x:Double>
+    <x:Double x:Key="FontSize077">44.5</x:Double>
+    <x:Double x:Key="FontSize078">45.0</x:Double>
+    <x:Double x:Key="FontSize079">45.5</x:Double>
+    <x:Double x:Key="FontSize080">46.0</x:Double>
+    <x:Double x:Key="FontSize081">46.5</x:Double>
+    <x:Double x:Key="FontSize082">47.0</x:Double>
+    <x:Double x:Key="FontSize083">47.5</x:Double>
+    <x:Double x:Key="FontSize084">48.0</x:Double>
+    <x:Double x:Key="FontSize085">48.5</x:Double>
+    <x:Double x:Key="FontSize086">49.0</x:Double>
+    <x:Double x:Key="FontSize087">49.5</x:Double>
+    <x:Double x:Key="FontSize088">50.0</x:Double>
+    <x:Double x:Key="FontSize089">50.5</x:Double>
+    <x:Double x:Key="FontSize090">51.0</x:Double>
+    <x:Double x:Key="FontSize091">51.5</x:Double>
+    <x:Double x:Key="FontSize092">52.0</x:Double>
+    <x:Double x:Key="FontSize093">52.5</x:Double>
+    <x:Double x:Key="FontSize094">53.0</x:Double>
+    <x:Double x:Key="FontSize095">53.5</x:Double>
+    <x:Double x:Key="FontSize096">54.0</x:Double>
+    <x:Double x:Key="FontSize097">54.5</x:Double>
+    <x:Double x:Key="FontSize098">55.0</x:Double>
+    <x:Double x:Key="FontSize099">55.5</x:Double>
+    <x:Double x:Key="FontSize100">56.0</x:Double>
+    <x:Double x:Key="FontSize101">56.5</x:Double>
+    <x:Double x:Key="FontSize102">57.0</x:Double>
+    <x:Double x:Key="FontSize103">57.5</x:Double>
+    <x:Double x:Key="FontSize104">58.0</x:Double>
+    <x:Double x:Key="FontSize105">58.5</x:Double>
+    <x:Double x:Key="FontSize106">59.0</x:Double>
+    <x:Double x:Key="FontSize107">59.5</x:Double>
+    <x:Double x:Key="FontSize108">60.0</x:Double>
+    <x:Double x:Key="FontSize109">60.5</x:Double>
+    <x:Double x:Key="FontSize110">61.0</x:Double>
+    <x:Double x:Key="FontSize111">61.5</x:Double>
+    <x:Double x:Key="FontSize112">62.0</x:Double>
+    <x:Double x:Key="FontSize113">62.5</x:Double>
+    <x:Double x:Key="FontSize114">63.0</x:Double>
+    <x:Double x:Key="FontSize115">63.5</x:Double>
+    <x:Double x:Key="FontSize116">64.0</x:Double>
+    <x:Double x:Key="FontSize117">64.5</x:Double>
+    <x:Double x:Key="FontSize118">65.0</x:Double>
+    <x:Double x:Key="FontSize119">65.5</x:Double>
+    <x:Double x:Key="FontSize120">66.0</x:Double>
+    <x:Double x:Key="FontSize121">66.5</x:Double>
+    <x:Double x:Key="FontSize122">67.0</x:Double>
+    <x:Double x:Key="FontSize123">67.5</x:Double>
+    <x:Double x:Key="FontSize124">68.0</x:Double>
+    <x:Double x:Key="FontSize125">68.5</x:Double>
+    <x:Double x:Key="FontSize126">69.0</x:Double>
+    <x:Double x:Key="FontSize127">69.5</x:Double>
+    <x:Double x:Key="FontSize128">70.0</x:Double>
+    <x:Double x:Key="FontSize129">70.5</x:Double>
+    <x:Double x:Key="FontSize130">71.0</x:Double>
+    <x:Double x:Key="FontSize131">71.5</x:Double>
+    <x:Double x:Key="FontSize132">72.0</x:Double>
+    <x:Double x:Key="FontSize133">72.5</x:Double>
+    <x:Double x:Key="FontSize134">73.0</x:Double>
+    <x:Double x:Key="FontSize135">73.5</x:Double>
+    <x:Double x:Key="FontSize136">74.0</x:Double>
+    <x:Double x:Key="FontSize137">74.5</x:Double>
+    <x:Double x:Key="FontSize138">75.0</x:Double>
+    <x:Double x:Key="FontSize139">75.5</x:Double>
+    <x:Double x:Key="FontSize140">76.0</x:Double>
+    <x:Double x:Key="FontSize141">76.5</x:Double>
+    <x:Double x:Key="FontSize142">77.0</x:Double>
+    <x:Double x:Key="FontSize143">77.5</x:Double>
+    <x:Double x:Key="FontSize144">78.0</x:Double>
+    <x:Double x:Key="FontSize145">78.5</x:Double>
+    <x:Double x:Key="FontSize146">79.0</x:Double>
+    <x:Double x:Key="FontSize147">79.5</x:Double>
+    <x:Double x:Key="FontSize148">80.0</x:Double>
+    <x:Double x:Key="FontSize149">80.5</x:Double>
+    <x:Double x:Key="FontSize150">81.0</x:Double>
+    <x:Double x:Key="FontSize151">81.5</x:Double>
+    <x:Double x:Key="FontSize152">82.0</x:Double>
+    <x:Double x:Key="FontSize153">82.5</x:Double>
+    <x:Double x:Key="FontSize154">83.0</x:Double>
+    <x:Double x:Key="FontSize155">83.5</x:Double>
+    <x:Double x:Key="FontSize156">84.0</x:Double>
+    <x:Double x:Key="FontSize157">84.5</x:Double>
+    <x:Double x:Key="FontSize158">85.0</x:Double>
+    <x:Double x:Key="FontSize159">85.5</x:Double>
+    <x:Double x:Key="FontSize160">86.0</x:Double>
+    <x:Double x:Key="FontSize161">86.5</x:Double>
+    <x:Double x:Key="FontSize162">87.0</x:Double>
+    <x:Double x:Key="FontSize163">87.5</x:Double>
+    <x:Double x:Key="FontSize164">88.0</x:Double>
+    <x:Double x:Key="FontSize165">88.5</x:Double>
+    <x:Double x:Key="FontSize166">89.0</x:Double>
+    <x:Double x:Key="FontSize167">89.5</x:Double>
+    <x:Double x:Key="FontSize168">90.0</x:Double>
+    <x:Double x:Key="FontSize169">90.5</x:Double>
+    <x:Double x:Key="FontSize170">91.0</x:Double>
+    <x:Double x:Key="FontSize171">91.5</x:Double>
+    <x:Double x:Key="FontSize172">92.0</x:Double>
+    <x:Double x:Key="FontSize173">92.5</x:Double>
+    <x:Double x:Key="FontSize174">93.0</x:Double>
+    <x:Double x:Key="FontSize175">93.5</x:Double>
+    <x:Double x:Key="FontSize176">94.0</x:Double>
+    <x:Double x:Key="FontSize177">94.5</x:Double>
+    <x:Double x:Key="FontSize178">95.0</x:Double>
+    <x:Double x:Key="FontSize179">95.5</x:Double>
+    <x:Double x:Key="FontSize180">96.0</x:Double>
+    <x:Double x:Key="FontSize181">96.5</x:Double>
+    <x:Double x:Key="FontSize182">97.0</x:Double>
+    <x:Double x:Key="FontSize183">97.5</x:Double>
+    <x:Double x:Key="FontSize184">98.0</x:Double>
+    <x:Double x:Key="FontSize185">98.5</x:Double>
+    <x:Double x:Key="FontSize186">99.0</x:Double>
+    <x:Double x:Key="FontSize187">99.5</x:Double>
+    <x:Double x:Key="FontSize188">100.0</x:Double>
+    <x:Double x:Key="FontSize189">100.5</x:Double>
+    <x:Double x:Key="FontSize190">101.0</x:Double>
+    <x:Double x:Key="FontSize191">101.5</x:Double>
+    <x:Double x:Key="FontSize192">102.0</x:Double>
+    <x:Double x:Key="FontSize193">102.5</x:Double>
+    <x:Double x:Key="FontSize194">103.0</x:Double>
+    <x:Double x:Key="FontSize195">103.5</x:Double>
+    <x:Double x:Key="FontSize196">104.0</x:Double>
+    <x:Double x:Key="FontSize197">104.5</x:Double>
+    <x:Double x:Key="FontSize198">105.0</x:Double>
+    <x:Double x:Key="FontSize199">105.5</x:Double>
+    <x:Double x:Key="FontSize200">106.0</x:Double>
+
+    <SolidColorBrush x:Key="TextBrush00" Color="#FF1A1A2E"/>
+    <SolidColorBrush x:Key="TextBrush01" Color="#FF16213E"/>
+    <SolidColorBrush x:Key="TextBrush02" Color="#FF0F3460"/>
+    <SolidColorBrush x:Key="TextBrush03" Color="#FFE94560"/>
+    <SolidColorBrush x:Key="TextBrush04" Color="#FF533483"/>
+    <SolidColorBrush x:Key="TextBrush05" Color="##FF2C3E50"/>
+    <SolidColorBrush x:Key="TextBrush06" Color="#FF8E44AD"/>
+    <SolidColorBrush x:Key="TextBrush07" Color="#FF2980B9"/>
+    <SolidColorBrush x:Key="TextBrush08" Color="#FF27AE60"/>
+    <SolidColorBrush x:Key="TextBrush09" Color="#FFF39C12"/>
+    <SolidColorBrush x:Key="TextBrush10" Color="#FFE74C3C"/>
+    <SolidColorBrush x:Key="TextBrush11" Color="#FF1ABC9C"/>
+    <SolidColorBrush x:Key="TextBrush12" Color="#FF3498DB"/>
+    <SolidColorBrush x:Key="TextBrush13" Color="#FF9B59B6"/>
+    <SolidColorBrush x:Key="TextBrush14" Color="#FFD35400"/>
+
+    <Thickness x:Key="HeavyMargin">12,24,12,24</Thickness>
+    <CornerRadius x:Key="HeavyCorner">8</CornerRadius>
+
+    <Style x:Key="TextStyle00" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize010}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush00}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="50"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle01" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize015}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush01}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="55"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle02" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize020}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush02}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="60"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle03" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize025}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush03}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="65"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle04" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize030}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush04}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="70"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle05" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize035}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush05}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="75"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle06" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize040}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush06}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="80"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle07" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize045}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush07}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="85"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle08" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize050}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush08}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="90"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle09" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize055}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush09}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="95"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle10" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize060}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush10}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="100"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle11" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize065}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush11}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="105"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle12" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize070}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush12}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="110"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle13" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize075}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush13}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="115"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle14" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize080}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush14}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="120"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle15" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize085}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush00}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="125"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle16" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize090}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush01}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="130"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle17" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize095}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush02}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="135"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle18" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize100}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush03}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="140"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle19" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize105}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush04}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="145"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle20" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize110}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush05}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="150"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle21" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize115}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush06}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="155"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle22" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize120}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush07}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="160"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle23" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize125}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush08}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="165"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle24" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize130}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush09}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="170"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle25" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize135}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush10}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="175"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle26" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize140}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush11}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="180"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle27" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize145}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush12}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="185"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle28" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize150}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush13}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="190"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextStyle29" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize155}"/>
+        <Setter Property="Foreground" Value="{StaticResource TextBrush14}"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="CharacterSpacing" Value="195"/>
+        <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        <Setter Property="LineStackingStrategy" Value="BaselineToBaseline"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+    </Style>
+
+    <Style x:Key="RichStyle00" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize005}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle01" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize013}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle02" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize021}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle03" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize029}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle04" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize037}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle05" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize045}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle06" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize053}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle07" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize061}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle08" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize069}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle09" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize077}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle10" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize085}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle11" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize093}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle12" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize101}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle13" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize109}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle14" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize117}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle15" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize125}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle16" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize133}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle17" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize141}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle18" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize149}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Style x:Key="RichStyle19" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize157}"/>
+        <Setter Property="FontWeight" Value="Thin"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="IsTextSelectionEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+        <Setter Property="Margin" Value="{StaticResource HeavyMargin}"/>
+    </Style>
+
+    <Storyboard x:Key="BloatStoryboard00">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard01">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard02">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard03">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard04">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard05">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard06">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard07">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard08">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard09">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard10">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard11">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard12">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard13">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard14">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard15">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard16">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard17">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard18">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <Storyboard x:Key="BloatStoryboard19">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.1" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.1" To="0.9" Duration="0:0:0.4" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.8" Duration="0:0:0.7" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.3" To="0.7" Duration="0:0:1.0" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.4" To="0.6" Duration="0:0:1.3" EnableDependentAnimation="True"/>
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.5" To="0.5" Duration="0:0:1.6" EnableDependentAnimation="True"/>
+        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="TranslateX">
+            <LinearDoubleKeyFrame KeyTime="0:0:0.00" Value="10"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.05" Value="-15"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.10" Value="20"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.15" Value="-25"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.20" Value="30"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.25" Value="-35"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.30" Value="40"/>
+            <LinearDoubleKeyFrame KeyTime="0:0:0.35" Value="-45"/>
+        </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+
 </ResourceDictionary>

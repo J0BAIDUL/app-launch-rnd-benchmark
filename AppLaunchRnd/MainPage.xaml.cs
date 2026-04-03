@@ -7,7 +7,9 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
-            TimeTextBlock.Text = $"App.InitializeComponent() parsed in: {App.StartupTimeMs} ms";
+            InitTimeText.Text = $"InitializeComponent(): {App.InitComponentMs} ms";
+            LaunchTimeText.Text = $"Ctor → OnLaunched(): {App.CtorToLaunchedMs} ms";
+            TotalTimeText.Text = $"Total: {App.InitComponentMs + App.CtorToLaunchedMs} ms";
         }
     }
 }

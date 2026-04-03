@@ -9,21 +9,30 @@ namespace MyApp
 {
     sealed partial class App : Application
     {
-        public static long StartupTimeMs;
+        public static long InitComponentMs;
+        public static long CtorToLaunchedMs;
+
+        private static System.Diagnostics.Stopwatch _ctorToLaunchTimer;
 
         public App()
         {
-            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+            var initTimer = System.Diagnostics.Stopwatch.StartNew();
             this.InitializeComponent();
-            stopwatch.Stop();
-            StartupTimeMs = stopwatch.ElapsedMilliseconds;
-            System.Diagnostics.Debug.WriteLine($"App.InitializeComponent() took: {StartupTimeMs} ms");
+            initTimer.Stop();
+            InitComponentMs = initTimer.ElapsedMilliseconds;
+            System.Diagnostics.Debug.WriteLine($"[BENCHMARK] InitializeComponent() took: {InitComponentMs} ms");
+
+            _ctorToLaunchTimer = System.Diagnostics.Stopwatch.StartNew();
 
             this.Suspending += OnSuspending;
         }
 
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            _ctorToLaunchTimer.Stop();
+            CtorToLaunchedMs = _ctorToLaunchTimer.ElapsedMilliseconds;
+            System.Diagnostics.Debug.WriteLine($"[BENCHMARK] Ctor->OnLaunched() took: {CtorToLaunchedMs} ms");
+
             Frame rootFrame = Window.Current.Content as Frame;
 
             if (rootFrame == null)

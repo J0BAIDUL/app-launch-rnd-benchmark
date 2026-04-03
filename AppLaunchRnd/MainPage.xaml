@@ -8,7 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock x:Name="TimeTextBlock" Text="Benchmark Running... Check Debug Output" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+    <Grid Padding="40">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="16">
+            <TextBlock Text="UWP XAML Parse Benchmark" FontSize="32" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="InitTimeText" FontSize="22" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="LaunchTimeText" FontSize="22" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="TotalTimeText" FontSize="26" FontWeight="SemiBold" HorizontalAlignment="Center" Foreground="Crimson"/>
+        </StackPanel>
     </Grid>
 </Page>
