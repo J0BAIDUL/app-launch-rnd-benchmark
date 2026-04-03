@@ -7,33 +7,32 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v2.0.0
+      uses: microsoft/setup-msbuild@v2
 
     - name: Setup NuGet
-      uses: NuGet/setup-nuget@v3
+      uses: NuGet/setup-nuget@v2
 
     - name: Restore NuGet Packages
       run: nuget restore AppLaunchRnd.sln
 
-    - name: Build and Package UWP App
+    - name: Build UWP App
       run: >
-        msbuild AppLaunchRnd.sln 
-        /p:Configuration=Release 
-        /p:Platform=x64 
-        /p:UapAppxPackageBuildMode=SideloadOnly 
-        /p:AppxBundle=Always 
-        /p:AppxBundlePlatforms="x64" 
-        /p:GenerateAppInstallerFile=false
+        msbuild AppLaunchRnd\AppLaunchRnd.csproj
+        /p:Configuration=Release
+        /p:Platform=x64
+        /p:AppxPackageSigningEnabled=false
+        /p:UseDotNetNativeToolchain=false
+        /p:AppxBundle=Never
 
-    - name: Upload UWP Package Artifact
+    - name: Upload UWP Build Output
       uses: actions/upload-artifact@v4
       with:
         name: UWP-Benchmark-App
-        path: AppLaunchRnd\AppPackages\
+        path: AppLaunchRnd\bin\x64\Release\
