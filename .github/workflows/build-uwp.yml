@@ -17,11 +17,14 @@ jobs:
       uses: microsoft/setup-msbuild@v2.0.0
 
     - name: Setup NuGet
-      uses: NuGet/setup-nuget@v2
+      uses: NuGet/setup-nuget@v3
+
+    - name: Restore NuGet Packages
+      run: nuget restore AppLaunchRnd.sln
 
     - name: Build and Package UWP App
       run: >
-        msbuild AppLaunchRnd.sln /restore 
+        msbuild AppLaunchRnd.sln 
         /p:Configuration=Release 
         /p:Platform=x64 
         /p:UapAppxPackageBuildMode=SideloadOnly 
