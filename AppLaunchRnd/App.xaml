@@ -7,6 +7,7 @@
     <Application.Resources>
         <controls:XamlControlsResources>
             <controls:XamlControlsResources.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <ResourceDictionary Source="ms-appx:///Styles/FontSizes.xaml" />
                 <ResourceDictionary Source="ms-appx:///Styles/QuickPanelCustomStyle.xaml" />
                 <ResourceDictionary Source="ms-appx:///Styles/CommonResources.xaml" />
