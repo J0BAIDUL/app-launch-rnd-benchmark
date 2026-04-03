@@ -7,6 +7,7 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
+            TimeTextBlock.Text = $"App.InitializeComponent() parsed in: {App.StartupTimeMs} ms";
         }
     }
 }

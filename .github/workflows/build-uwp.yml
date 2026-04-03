@@ -20,12 +20,12 @@ jobs:
       uses: NuGet/setup-nuget@v2
 
     - name: Restore NuGet Packages
-      run: nuget restore AppLaunchRnd.sln
+      run: msbuild -t:restore AppLaunchRnd.sln
 
     - name: Build and Package UWP App
       run: >
         msbuild AppLaunchRnd.sln 
-        /p:Configuration=Debug 
+        /p:Configuration=Release 
         /p:Platform=x86 
         /p:UapAppxPackageBuildMode=SideloadOnly 
         /p:AppxBundle=Always 

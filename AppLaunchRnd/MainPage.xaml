@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Benchmark Running... Check Debug Output" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+        <TextBlock x:Name="TimeTextBlock" Text="Benchmark Running... Check Debug Output" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
     </Grid>
 </Page>

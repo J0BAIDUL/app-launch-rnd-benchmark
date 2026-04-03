@@ -9,12 +9,15 @@ namespace MyApp
 {
     sealed partial class App : Application
     {
+        public static long StartupTimeMs;
+
         public App()
         {
             var stopwatch = System.Diagnostics.Stopwatch.StartNew();
             this.InitializeComponent();
             stopwatch.Stop();
-            System.Diagnostics.Debug.WriteLine($"App.InitializeComponent() took: {stopwatch.ElapsedMilliseconds} ms");
+            StartupTimeMs = stopwatch.ElapsedMilliseconds;
+            System.Diagnostics.Debug.WriteLine($"App.InitializeComponent() took: {StartupTimeMs} ms");
 
             this.Suspending += OnSuspending;
         }
