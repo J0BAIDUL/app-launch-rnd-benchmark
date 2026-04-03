@@ -1,0 +1,30 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 20 styles to add weight -->
+    <Style TargetType="Button" x:Key="CommonStyle1"> <Setter Property="Background" Value="Red"/> <Setter Property="Margin" Value="5"/> </Style>
+    <Style TargetType="Button" x:Key="CommonStyle2"> <Setter Property="Background" Value="Blue"/> <Setter Property="Margin" Value="10"/> </Style>
+    <Style TargetType="Button" x:Key="CommonStyle3"> <Setter Property="Background" Value="Green"/> <Setter Property="Margin" Value="15"/> </Style>
+    <Style TargetType="Button" x:Key="CommonStyle4"> <Setter Property="Background" Value="Yellow"/> <Setter Property="Margin" Value="20"/> </Style>
+    <Style TargetType="Button" x:Key="CommonStyle5"> <Setter Property="Background" Value="Orange"/> <Setter Property="Margin" Value="25"/> </Style>
+    
+    <Style TargetType="TextBlock" x:Key="CommonStyle6"> <Setter Property="FontSize" Value="12"/> <Setter Property="Foreground" Value="Black"/> </Style>
+    <Style TargetType="TextBlock" x:Key="CommonStyle7"> <Setter Property="FontSize" Value="14"/> <Setter Property="Foreground" Value="Gray"/> </Style>
+    <Style TargetType="TextBlock" x:Key="CommonStyle8"> <Setter Property="FontSize" Value="16"/> <Setter Property="Foreground" Value="White"/> </Style>
+    <Style TargetType="TextBlock" x:Key="CommonStyle9"> <Setter Property="FontSize" Value="18"/> <Setter Property="Foreground" Value="Red"/> </Style>
+    <Style TargetType="TextBlock" x:Key="CommonStyle10"> <Setter Property="FontSize" Value="20"/> <Setter Property="Foreground" Value="Blue"/> </Style>
+
+    <Style TargetType="TextBox" x:Key="CommonStyle11"> <Setter Property="BorderThickness" Value="1"/> <Setter Property="Padding" Value="5"/> </Style>
+    <Style TargetType="TextBox" x:Key="CommonStyle12"> <Setter Property="BorderThickness" Value="2"/> <Setter Property="Padding" Value="10"/> </Style>
+    <Style TargetType="TextBox" x:Key="CommonStyle13"> <Setter Property="BorderThickness" Value="3"/> <Setter Property="Padding" Value="15"/> </Style>
+    <Style TargetType="TextBox" x:Key="CommonStyle14"> <Setter Property="BorderThickness" Value="4"/> <Setter Property="Padding" Value="20"/> </Style>
+    <Style TargetType="TextBox" x:Key="CommonStyle15"> <Setter Property="BorderThickness" Value="5"/> <Setter Property="Padding" Value="25"/> </Style>
+
+    <Style TargetType="ListView" x:Key="CommonStyle16"> <Setter Property="Background" Value="Transparent"/> <Setter Property="Margin" Value="5"/> </Style>
+    <Style TargetType="ListView" x:Key="CommonStyle17"> <Setter Property="Background" Value="LightGray"/> <Setter Property="Margin" Value="10"/> </Style>
+    <Style TargetType="ListView" x:Key="CommonStyle18"> <Setter Property="Background" Value="DarkGray"/> <Setter Property="Margin" Value="15"/> </Style>
+    <Style TargetType="ListView" x:Key="CommonStyle19"> <Setter Property="Background" Value="White"/> <Setter Property="Margin" Value="20"/> </Style>
+    <Style TargetType="ListView" x:Key="CommonStyle20"> <Setter Property="Background" Value="Black"/> <Setter Property="Margin" Value="25"/> </Style>
+
+</ResourceDictionary>

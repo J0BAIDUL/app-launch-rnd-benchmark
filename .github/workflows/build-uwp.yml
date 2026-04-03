@@ -1,0 +1,33 @@
+name: Build UWP Benchmark App
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Build and Package UWP App
+      run: >
+        msbuild AppLaunchRnd.sln 
+        /p:Configuration=Debug 
+        /p:Platform=x86 
+        /p:UapAppxPackageBuildMode=SideloadOnly 
+        /p:AppxBundle=Always 
+        /p:AppxBundlePlatforms="x86|x64" 
+        /p:GenerateAppInstallerFile=false
+
+    - name: Upload UWP Package Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: UWP-Benchmark-App
+        path: AppLaunchRnd\AppPackages\
