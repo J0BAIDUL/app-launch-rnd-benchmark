@@ -27,12 +27,17 @@ jobs:
         msbuild AppLaunchRnd\AppLaunchRnd.csproj
         /p:Configuration=Release
         /p:Platform=x64
-        /p:AppxPackageSigningEnabled=false
-        /p:UseDotNetNativeToolchain=false
-        /p:AppxBundle=Never
+        /p:UseDotNetNativeToolchain=true
+        /p:UapAppxPackageBuildMode=SideloadOnly
+        /p:AppxBundle=Always
+        /p:AppxBundlePlatforms="x64"
+        /p:AppxPackageSigningEnabled=true
+        /p:PackageCertificateKeyFile=TemporaryKey.pfx
+        /p:PackageCertificatePassword=password
+        /p:GenerateAppInstallerFile=false
 
-    - name: Upload UWP Build Output
+    - name: Upload MSIX Bundle
       uses: actions/upload-artifact@v4
       with:
         name: UWP-Benchmark-App
-        path: AppLaunchRnd\bin\x64\Release\
+        path: AppLaunchRnd\AppPackages\
