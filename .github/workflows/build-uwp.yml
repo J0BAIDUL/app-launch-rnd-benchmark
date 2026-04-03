@@ -19,12 +19,9 @@ jobs:
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v2
 
-    - name: Restore NuGet Packages
-      run: msbuild -t:restore AppLaunchRnd.sln
-
     - name: Build and Package UWP App
       run: >
-        msbuild AppLaunchRnd.sln 
+        msbuild AppLaunchRnd.sln /restore 
         /p:Configuration=Release 
         /p:Platform=x64 
         /p:UapAppxPackageBuildMode=SideloadOnly 
