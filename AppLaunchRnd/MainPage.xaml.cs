@@ -7,6 +7,7 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
+            Windows.UI.Xaml.Window.Current.SetTitleBar(AppTitleBar);
             InitTimeText.Text = $"InitializeComponent(): {App.InitComponentMs} ms";
             LaunchTimeText.Text = $"Ctor → OnLaunched(): {App.CtorToLaunchedMs} ms";
             TotalTimeText.Text = $"Total: {App.InitComponentMs + App.CtorToLaunchedMs} ms";
